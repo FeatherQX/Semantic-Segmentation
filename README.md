@@ -1,2 +1,32 @@
 # Semantic_Segmentation
 Relevant code for handling image semantic segmentation
+
+## 项目简介 (About This Project)
+
+本项目主要用于记录和存放个人在学习“图像语义分割 (Semantic Segmentation)”过程中的代码与实践。
+
+库内包含的所有核心代码均经过本人的本地运行与测试验证。其中部分代码是在 AI 工具的辅助下理解、构建并优化而成的。本项目不仅作为个人的技术学习库，也提供了一套稳定、可直接运行的语义分割代码参考。
+
+本项目中探索的计算机视觉技术，旨在为更复杂的空间与环境解析提供技术储备，例如应用于城乡历史文化遗产的视觉感知、建成环境的像素级特征提取等实际场景。
+
+## 包含内容 (Contents)
+
+本仓库主要包含以下两类代码：
+
+1. 学习与测试代码 (Learning Codes): - 学习语义分割基础理论时使用的脚本。
+   - 各种网络结构（如 FCN, U-Net, DeepLab 等）的简单测试案例。
+2. 可运行的验证代码 (Verified Scripts): - 经过 AI 辅助编写并经过严格调试的工作流代码。
+   - 本人学习语义分割用于研究基于深度学习的历史地段街景图像的视觉感知。
+   - 包含图像预处理、模型推理预测以及分割结果可视化的完整脚本。 
+
+## 环境依赖 (Prerequisites)
+
+为了能够顺利运行本库中的代码，建议您的本地环境安装以下依赖：
+*(注：请根据你实际使用的库修改或删除以下内容)*
+- Python 3.11.3
+- Pycharm 2025.2
+- PyTorch / TensorFlow
+- OpenCV (cv2)
+- NumPy
+- Matplotlib
+- etc.
