@@ -1,4 +1,4 @@
-# Semantic_Segmentation
+# Semantic-Segmentation
 Relevant code for handling image semantic segmentation
 
 ## 项目简介 (About This Project)
