@@ -67,7 +67,7 @@ for one_class in class_info:  # 按顺序遍历每一个类别（保证覆盖顺
                 center_x, center_y = points[0][0], points[0][1]
                 edge_x, edge_y = points[1][0], points[1][1]
                 radius = np.linalg.norm(np.array([center_x, center_y] - np.array([edge_x, edge_y]))).astype(
-                    'int32')  # 建议这里也用int32，OpenCV画圆需要整数
+                    'int32')  # 建议这里用int32，OpenCV画圆需要整数
                 img_mask = cv2.circle(img_mask, (center_x, center_y), radius, one_class['color'], one_class['thickness'])
             else:
                 print('未知标注类型', one_class['type'])
