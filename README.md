@@ -18,15 +18,3 @@ Relevant code for handling image semantic segmentation
 2. 可运行的验证代码 (Verified Scripts): - 经过 AI 辅助编写并经过严格调试的工作流代码。
    - 本人学习语义分割用于研究基于深度学习的历史地段街景图像的视觉感知。
    - 包含图像预处理、模型推理预测以及分割结果可视化的完整脚本。 
-
-## 环境依赖 (Prerequisites)
-
-为了能够顺利运行本库中的代码，建议您的本地环境安装以下依赖：
-*(注：请根据你实际使用的库修改或删除以下内容)*
-- Python 3.11.3
-- Pycharm 2025.2
-- PyTorch / TensorFlow
-- OpenCV (cv2)
-- NumPy
-- Matplotlib
-- etc.
